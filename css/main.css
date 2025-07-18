@@ -7,6 +7,7 @@
 }
 
 /* Parte iniziale / header */
+
 #logo-intestazione {
     text-align: center;
     display: inline-block;
@@ -54,14 +55,39 @@
     /* Debug */
     height: 250px;
     background-color: blueviolet;
-    border: 1 solid black;
     border-style: dashed;
 }
 
 /*Parte centrale / Main  */
-#prima-parte {
+
+.sezione-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     /* Debug */
     height: 400px;
-    background-color: burlywood;
+    background-color: white;
+}
+
+.lato-img {
+    width: 40%;
+    /* debug */
+    background-color: blue;
+    height: 300px;
+    border-style: dashed;
+}
+.testo-pubblicità {
+    width: 25%;
+    /* debug */
+    background-color: rgb(216, 129, 194);
+    height: 300px;
+    border-style: dashed;
+
+}
+.grigio {
+    display: flex;
+    flex-direction: row-reverse;
+    /* debug */
+    background-color: darkgray;
 }
