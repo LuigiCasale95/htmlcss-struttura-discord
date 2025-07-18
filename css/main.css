@@ -1,0 +1,42 @@
+/* Regole base css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#logo-intestazione {
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /*  Debug */
+    background-color: rgb(98, 235, 212);
+    height: 55px;
+}
+#logo, #login {
+    display: flex;
+    width: 20%;
+    /* Debug */
+    background-color: rgb(182, 119, 24);   
+    height: 25px; 
+    border: 1 solid black;
+    border-style: dashed;
+    
+}
+#login {
+    padding-left: 100px;
+}
+#link {
+    width: 30%;
+    /* Debug */
+    background-color: rgb(182, 119, 24);   
+    height: 25px; 
+    border: 1 solid black;
+    border-style: dashed;
+
+}
