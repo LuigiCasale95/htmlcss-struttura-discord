@@ -141,8 +141,31 @@ header {
 
 }
 .fondo-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     /* debug */
     background-color: black;
-    height: 60px;
+    height: 65px;
     margin-top: 2px;
+}
+#piè-di-pagina {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* debug */
+    height: 45px;
+    background-color: aquamarine;
+    border-style: dashed;
+
+}
+.bottoni-finali {
+    text-align: center;
+    /* debug */
+    background-color: rgb(134, 94, 94);
+    height: 25px;
+    border-style: dashed;
+
 }
