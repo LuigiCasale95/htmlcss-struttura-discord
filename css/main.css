@@ -6,7 +6,7 @@
 
 }
 
-
+/* Parte iniziale / header */
 #logo-intestazione {
     text-align: center;
     display: inline-block;
@@ -24,7 +24,6 @@
     /* Debug */
     background-color: rgb(182, 119, 24);   
     height: 25px; 
-    border: 1 solid black;
     border-style: dashed;
     
 }
@@ -36,7 +35,33 @@
     /* Debug */
     background-color: rgb(182, 119, 24);   
     height: 25px; 
-    border: 1 solid black;
     border-style: dashed;
 
+}
+
+.schermata-header {
+        /*  Debug */
+    background-color: rgb(76, 0, 255);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.corpo-header {
+    width: 50%;
+    
+    /* Debug */
+    height: 250px;
+    background-color: blueviolet;
+    border: 1 solid black;
+    border-style: dashed;
+}
+
+/*Parte centrale / Main  */
+#prima-parte {
+    
+    /* Debug */
+    height: 400px;
+    background-color: burlywood;
 }
