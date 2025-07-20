@@ -13,8 +13,7 @@ header {
     
 }
 
-#logo-intestazione {
-    text-align: center;
+.logo-intestazione {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,25 +22,28 @@ header {
     background-color: rgb(98, 235, 212);
     height: 55px;
 }
-#logo, #login {
+
+.logo-intestazione > div {
     display: flex;
     width: 20%;
     /* Debug */
     background-color: rgb(182, 119, 24);   
     height: 25px; 
     border-style: dashed;
-    
+
 }
+
 #login {
     padding-left: 100px;
+    width: 30%;
 }
+
 #link {
     width: 30%;
-    /* Debug */
+     /* Debug */
     background-color: rgb(182, 119, 24);   
     height: 25px; 
-    border-style: dashed;
-
+    border-style: dashed; 
 }
 
 .schermata-header {
