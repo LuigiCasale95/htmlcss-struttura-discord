@@ -17,10 +17,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     /*  Debug */
     background-color: rgb(98, 235, 212);
     height: 55px;
+    
 }
 
 .logo-intestazione > div {
@@ -49,17 +49,17 @@ header {
 .schermata-header {
         /*  Debug */
     background-color: rgb(76, 0, 255);
-    height: 400px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .corpo-header {
-    width: 50%;
+    width: 55%;
     
     /* Debug */
-    height: 250px;
+    height: 285px;
     background-color: blueviolet;
     border-style: dashed;
 }
@@ -76,7 +76,7 @@ header {
     background-color: white;
 }
 
-.testo-pubblicità {
+.box-pubblicità {
     width: 40% ;
         /* debug */
     background-color: blue;
@@ -84,7 +84,7 @@ header {
     border-style: dashed;
 }
 
-.lato-img { 
+.box-img { 
     display: flex;
     flex-basis: 30%;
     
@@ -113,7 +113,7 @@ header {
     height: 550px;
 }
 .testo-conclusivo-main {
-    width: 65%;
+    width: 70%;
     /* debug */
     background-color: green;
     height: 480px;
@@ -131,7 +131,7 @@ header {
 }
 
 .riquadro-social {
-    width: 18%;
+    width: 21%;
     /* debug */
     height: 360px;
     background-color: darkorchid;
@@ -139,7 +139,7 @@ header {
 }
 
 .info-utili {
-    width: calc(47% / 4);
+    width: calc(49% / 4);
     /* debug */
     height: 360px;
     background-color: rgb(204, 124, 50);
@@ -156,13 +156,13 @@ header {
     margin-top: 2px;
 }
 #piè-di-pagina {
-    width: 65%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     /* debug */
-    height: 45px;
+    height: 47px;
     background-color: aquamarine;
     border-style: dashed;
 
